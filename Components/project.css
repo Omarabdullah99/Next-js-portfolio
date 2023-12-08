@@ -1,0 +1,53 @@
+.box-1{
+    background: url(../public/assets/omarstorebd.netlify.app_.png);
+    background-size: cover;
+    background-position:top;
+    transition: ease-in-out 8s;
+}
+
+.box-2{
+    background: url(../public/assets/65636d71593b1108eb9a54b0--sweet-clafoutis-63dd83.netlify.app_.png);
+    background-size: cover;
+    background-position:top;
+    transition: ease-in-out 8s;
+}
+
+.box-3{
+    background: url(../public/assets/growup-skill.web.app_.png);
+    background-size: cover;
+    background-position:top;
+    transition: ease-in-out 8s;
+}
+
+.box-1:hover{
+    background-position: bottom;
+}
+
+.box-2:hover{
+    background-position: bottom;
+}
+
+.box-3:hover{
+    background-position: bottom;
+}
+.box {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .box a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: blue;
+    font: bold;
+    font-size: 40px;
+    text-decoration: none;
+    opacity: 0; /* initially hidden */
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .box:hover a {
+    opacity: 1; /* show on hover */
+  }
